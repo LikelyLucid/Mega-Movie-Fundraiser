@@ -1,1 +1,1 @@
-def check_blank()
+def check_blank(question):
