@@ -1,4 +1,6 @@
 def check_blank(question):
     while True:
         response =  input(question)
-        if response
+        if response == "":
+            print("You must enter something!")
+        else:
