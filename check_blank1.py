@@ -8,3 +8,4 @@ def check_blank(question):
 
 
 
+print()
