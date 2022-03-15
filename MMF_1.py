@@ -1,3 +1,4 @@
 def check_blank(question):
     while True:
-        response =  
+        response =  input(question)
+        
