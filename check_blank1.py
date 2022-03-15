@@ -5,3 +5,7 @@ def check_blank(question):
             print("You must enter something!")
         else:
             return response
+
+
+
+d
