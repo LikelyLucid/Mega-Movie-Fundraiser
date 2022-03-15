@@ -4,3 +4,4 @@ def check_blank(question):
         if response == "":
             print("You must enter something!")
         else:
+            return response
