@@ -8,4 +8,4 @@ def check_blank(question):
 
 
 
-print()
+print(check_blank("What is your name? "))
