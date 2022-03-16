@@ -1,7 +1,7 @@
-def check_blank(question, error_msg):
+def check_blank(question):
     while True:
         response =  input(question)
         if response == "":
-            print(error_msg)
+            print("You must enter something!")
         else:
             return response
