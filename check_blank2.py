@@ -1,6 +1,6 @@
 def check_blank(question, error_msg): # define function
-    while True: # repeat forever 
-        response =  input(question)
+    while True: # repeat forever
+        response =  input(question) 
         if not response.isalpha():
             print(error_msg)
         else:
