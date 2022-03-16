@@ -3,5 +3,5 @@ def check_blank(question):
         response =  input(question)
         if response == "": # if response is empty
             print("You must enter something!") # print error message
-        else:
+        else: 
             return response # exit the function and return the response
