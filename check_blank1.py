@@ -5,3 +5,5 @@ def check_blank(question):
             print("You must enter something!")
         else:
             return response
+
+print(check_blank("What is your name? "))
