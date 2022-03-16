@@ -4,4 +4,4 @@ def check_blank(question, error_msg):
         if response == "":
             print(error_msg)
         else:
-            return response
+            return response.capitalize()
