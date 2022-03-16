@@ -1,4 +1,4 @@
-def check_blank(question):
+def check_blank(question, error):
     while True:
         response =  input(question)
         if response == "":
