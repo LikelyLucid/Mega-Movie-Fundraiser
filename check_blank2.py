@@ -1,4 +1,4 @@
-def check_blank(question, error_msg): 
+def check_blank(question, error_msg): # define function
     while True:
         response =  input(question)
         if not response.isalpha():
