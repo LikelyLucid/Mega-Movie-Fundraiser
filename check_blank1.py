@@ -5,4 +5,3 @@ def check_blank(question):
             print("You must enter something!")  # print error message
         else:
             return response  # exit the function and return the response
-a
