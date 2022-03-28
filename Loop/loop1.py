@@ -8,4 +8,4 @@ while name != "Xxx" and count != MAX_TICKETS:  # while loop
     count += 1  # count + 1
 
 if count < MAX_TICKETS:
-    print(f"there are "
+    print(f"You have sold {count} tickets")
