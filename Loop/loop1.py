@@ -7,5 +7,5 @@ while name != "Xxx" and count != MAX_TICKETS:  # while loop
     name = input("What's your name? ").title()  # input name
     count += 1  # count + 1
 
-if count < MAX_TICKETS:
+if count > MAX_TICKETS:
     print(f"there are "
