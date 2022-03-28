@@ -4,8 +4,8 @@ MAX_TICKETS = 5  # max amount of tickets
 
 while name != "Xxx" and count != MAX_TICKETS:  # while loop
     print(f"You have {MAX_TICKETS - count} tickets left")
-    name = input("What's your name? ").title()  # input name
-    count += 1  # count + 1
+    name = input("What's your name? ").title()
+    count += 1
 
 if count < MAX_TICKETS:
     print(f"You have sold {count} tickets\nThere are {MAX_TICKETS - count} tickets left")
