@@ -9,4 +9,4 @@ def interger_checker(question, low_num, high_num):
             else:
                 print(error)
         except ValueError:
-            print("\nPlease enter an integer (eg ")
+            print("\nPlease enter an integer (eg a whole numbert ")
