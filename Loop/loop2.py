@@ -13,6 +13,6 @@ while name != "Xxx" and count != MAX_TICKETS:
         count += 1
 
 if count < MAX_TICKETS:
-    print(f"You have sold {count} tickets\nThere are {MAX_TICKETS - count} tickets left")
+    print(f"\nYou have sold {count} tickets\nThere are {MAX_TICKETS - count} tickets left")
 else:
-    print("You have sold all available tickets")
+    print("\nYou have sold all available tickets")
