@@ -1,1 +1,1 @@
-def inter
+def interger_checker
