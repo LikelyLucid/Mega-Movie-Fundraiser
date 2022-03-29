@@ -3,7 +3,8 @@ count = 0
 MAX_TICKETS = 5  # max amount of tickets
 
 while name != "Xxx" and count != MAX_TICKETS:
-    if MAX_TICKETS
+    if MAX_TICKETS - count == 1:
+        print(f"You have {MAX_TICKETS - count} ticket left")
     print(f"You have {MAX_TICKETS - count} tickets left")
     name = input("What's your name? ").title()
     count += 1
