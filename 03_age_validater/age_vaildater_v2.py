@@ -9,3 +9,4 @@ def number_checker(text):
         except ValueError:
             print("\nPlease enter an integer (eg a whole number with no decimal)")
 
+age = 
