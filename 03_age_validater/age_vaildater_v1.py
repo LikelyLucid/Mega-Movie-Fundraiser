@@ -3,4 +3,4 @@ def interger_checker(question, low_num, high_num):
     valid = False
     while not valid:
         try:
-            number_to
+            number_to_check = int(input(question))
