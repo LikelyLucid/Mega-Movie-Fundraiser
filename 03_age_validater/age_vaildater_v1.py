@@ -10,3 +10,4 @@ def interger_checker(question, low_num, high_num):
                 print(error)
         except ValueError:
             print("\nPlease enter an integer (eg a whole number with no decimal")
+age = interger_checker("\nHow old are you? ", 0, 150)
