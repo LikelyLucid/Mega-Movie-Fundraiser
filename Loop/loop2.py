@@ -3,7 +3,7 @@ count = 0
 MAX_TICKETS = 5  # max amount of tickets
 
 while name != "Xxx" and count != MAX_TICKETS:
-    if MAX_TICKETS - count > 1:
+    if MAX_TICKETS - count > 1: # if there are more than 1 tickets left
         print(f"You have {MAX_TICKETS - count} ticket left")
     else:
         print("****YOU ONLY HAVE ONE TICKET LEFT*****")
