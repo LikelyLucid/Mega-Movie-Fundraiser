@@ -4,6 +4,7 @@ def number_checker(text):
         try:
             number_to_check = int(input(question))
             if isinstance(number_to_check, int):
+                valid = True
                 return number_to_check
         except ValueError:
             print("\nPlease enter an integer (eg a whole number with no decimal)")
