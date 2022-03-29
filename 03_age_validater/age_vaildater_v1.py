@@ -8,4 +8,4 @@ def interger_checker(question, low_num, high_num):
                 return number_to_check
             else:
                 print(error)
-                print()
+        
