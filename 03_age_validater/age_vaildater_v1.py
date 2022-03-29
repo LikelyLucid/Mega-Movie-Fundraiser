@@ -1,1 +1,1 @@
-def interger_checker(question, )
+def interger_checker(question, low_num,)
