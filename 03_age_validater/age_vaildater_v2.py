@@ -1,4 +1,4 @@
-def number_checker(question, low_num, high_num):
+def number_checker(text):
     error = f"Please enter an integer between {low_num} and {high_num}."
     valid = False
     while not valid:
