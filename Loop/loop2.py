@@ -9,7 +9,7 @@ while name != "Xxx" and count != MAX_TICKETS:
         # if there is only 1 ticket left
         print("****YOU ONLY HAVE ONE TICKET LEFT*****")
     name = input("What's your name? ").title()
-    if name !
+    if name != "Xxx":
     count += 1
 
 if count < MAX_TICKETS:
