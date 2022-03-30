@@ -14,7 +14,7 @@ def calculate_ticket_price(age):
         ticket_price = retired_price
     return ticket_price
 
-TICKET_COST_PR
+TICKET_COST_PRICE = 5.00
 test_cases = [["Rangi", 15], ["Manaia", 16], ["Talia", 64], ["Arihi", 65]]
 
 for test in test_cases:
