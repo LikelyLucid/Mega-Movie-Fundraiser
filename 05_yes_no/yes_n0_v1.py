@@ -1,4 +1,4 @@
-error_message = "Please answer 'Y' or 'N"
+error_message = "Please answer 'Y' or 'N'"
 valid_responses = ["y", "yes", "n", "no"]
 response = input("Do you want snacks? ").lower()
 while response not in valid_responses:
