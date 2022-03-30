@@ -14,4 +14,4 @@ def calculate_ticket_price(age):
 
 name = input("Name: ")
 age = int(input("Age: "))
-print(f"The price is ${calculate_ticket_price(age):,.2f1")
+print(f"The price is ${calculate_ticket_price(age):,.2f}")
