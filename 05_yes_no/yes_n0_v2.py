@@ -13,4 +13,5 @@ def yes_no_response(question):
 snacks_required = yes_no_response("Do you want snacks?")
 if not snacks_required:
     print("Valid answer. You don't want snacks")
-    else:print("Valid answer. You do want snacks")
+else:
+    print("Valid answer. You do want snacks")
