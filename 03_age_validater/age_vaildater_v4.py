@@ -2,7 +2,7 @@ def number_checker(text):
     valid = False
     while not valid:
         try:
-            number_to_check = int(input(question))
+            number_to_check = int(input(text))
             if isinstance(number_to_check, int):
                 valid = True
                 return number_to_check
