@@ -7,4 +7,6 @@ def get_snacks():
             return snack_choice
     print(snack_choice_error)
     return get_snacks()
-for test in range(6): print(f"You want {get_snacks()}")
+
+for test in range(6):
+    print(f"You want {get_snacks()}")
