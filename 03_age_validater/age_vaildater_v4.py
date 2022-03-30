@@ -14,4 +14,6 @@ def number_checker(text):
 
 age = number_checker("\nPlease enter age of ticker holder: ")
 if age < MIN_AGE:
-    print()
+    print(f"\nSorry, you must be at least {MIN_AGE} years old to hold the stock.")
+
+    
