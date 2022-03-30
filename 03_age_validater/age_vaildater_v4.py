@@ -1,3 +1,4 @@
+\
 MAX_NUMBER = 110
 
 def number_checker(text):
