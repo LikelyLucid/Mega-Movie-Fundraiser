@@ -5,6 +5,7 @@ def calculate_ticket_price(age):
     CHILD_PRICE = 7.5
     STANDARD_PRICE = 10.5
     RETIRED_PRICE = 6.5
+
     if age in CHILD_AGE:
         ticket_price = CHILD_PRICE
     elif age in STANDARD_AGE:
