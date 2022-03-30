@@ -2,13 +2,17 @@ def calculate_ticket_price(age):
     child_age = range(12, 16)
     standard_age = range(16, 65)
 
+    child_price = 7.5
     standard_price = 10.5
+    retired_price = 6.5
+
     if age in child_age:
-        return 7.5
+        ticket_price = child_price
     elif age in standard_age:
-        return standard_price
+        ticket_price = standard_price
     else:
-        return 6.5
+        ticket_price = retired_price
+    return ticket_price
 
 
 TICKET_COST_PRICE = 5.00
