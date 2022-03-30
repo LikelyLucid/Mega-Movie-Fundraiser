@@ -15,4 +15,5 @@ while testing:
     if not snacks_required:
         print("Valid answer. You don't want snacks")
     else:
-        print("Valid answer. You do want snacks") print()
+        print("Valid answer. You do want snacks")
+        print()
