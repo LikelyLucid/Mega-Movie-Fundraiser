@@ -13,7 +13,7 @@ def calculate_ticket_price(age):
         ticket_price = STANDARD_PRICE
     else:
         ticket_price = RETIRED_PRICE
-    return(ticket_price)
+    return ticket_price
 
 
 name = input("Name: ")
