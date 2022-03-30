@@ -7,5 +7,6 @@ def yes_no_response(question):
         response = input(question).lower()
     if response == "n" or response == "no":
         return False
-    else: return True
+    else:
+        return True
 .# Main routine # temporary input statements - during development snacks_required = yes_no_response("Do you want snacks?") if not snacks_required: print("Valid answer. You don't want snacks") else: print("Valid answer. You do want snacks")
