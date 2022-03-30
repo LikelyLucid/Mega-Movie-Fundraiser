@@ -1,4 +1,4 @@
-MAX_NUMBER = 1
+MAX_NUMBER = 110
 
 def number_checker(text):
     valid = False
