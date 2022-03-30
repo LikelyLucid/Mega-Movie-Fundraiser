@@ -1,4 +1,4 @@
-MIN_NUM
+MIN_NUMBER = 12
 MAX_NUMBER = 110
 
 def number_checker(text):
