@@ -10,6 +10,6 @@ def calculate_ticket_price(age):
         ticket_price = STANDARD_PRICE
     else: ticket_price = RETIRED_PRICE
     return(ticket_price)
-# Main routine # temporary input statements - during development
-name = input("Name: ") age = int(input("Age: "))
+name = input("Name: ")
+age = int(input("Age: "))
 print(f"The price is $icalculate_ticket_price(age):,.2f1")
