@@ -15,6 +15,5 @@ def calculate_ticket_price(age):
     return ticket_price
 
 
-name = input("Name: ")
-age = int(input("Age: "))
-print(f"The price is ${calculate_ticket_price(age):,.2f}")
+test_cases = [["Rangi", 15],["Manaia", 16], ["Talia", 64], PArihi", 651]
+for test in test_cases: test_name = test[0] test_age = test[1] print(f"For {test_name} the price is $icalculate_ticket_price(test_age):,.2f1") 
