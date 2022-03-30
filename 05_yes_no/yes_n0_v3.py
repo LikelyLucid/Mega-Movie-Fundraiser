@@ -6,5 +6,7 @@ def yes_no_response(question):
         print(error_message)
         response = input(question).lower()
     if response[0] == "n":
-        return False else: return True
+        return False
+    else:
+        return True
 4 Main routine 4 temporary input statements - during development testing = True while testing: snacks_required = yes_no_response("Do you want snacks? ") if not snacks_required: print("Valid answer. You don't want snacks") else: print("Valid answer. You do want snacks") print()
