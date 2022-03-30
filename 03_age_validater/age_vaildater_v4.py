@@ -13,4 +13,5 @@ def number_checker(text):
             print("\nPlease enter an integer (eg a whole number with no decimal)")
 
 age = number_checker("\nPlease enter age of ticker holder: ")
-if age < MIN_AGE
+if age < MIN_AGE:
+    print()
