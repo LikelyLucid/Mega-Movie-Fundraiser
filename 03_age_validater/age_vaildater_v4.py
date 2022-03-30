@@ -13,6 +13,4 @@ def number_checker(text):
             print("\nPlease enter an integer (eg a whole number with no decimal)")
 
 age = number_checker("\nPlease enter age of ticker holder: ")
-while not 12 <= age <= 110:
-    age = number_checker("\nPlease enter interger between 12 and 110: ")
-print(f"Age = {age}")
+if age < 
