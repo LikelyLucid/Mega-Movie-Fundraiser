@@ -22,3 +22,4 @@ for test in test_cases:
     test_age = test[1]
     ticket_price = calculate_ticket_price(test_age)
     print(f"For {test_name} the price is ${ticket_price:,.2f}")
+    profit
