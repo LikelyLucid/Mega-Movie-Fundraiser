@@ -20,4 +20,4 @@ test_cases = [["Rangi", 15],["Manaia", 16], ["Talia", 64], ["Arihi", 65]]
 for test in test_cases:
     test_name = test[0]
     test_age = test[1]
-    print(f"For {test_name} the price is $[calculate_ticket_price(test_age):,.2f1")
+    print(f"For {test_name} the price is ${calculate_ticket_price(test_age):,.2f1")
