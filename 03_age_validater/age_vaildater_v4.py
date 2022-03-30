@@ -1,5 +1,5 @@
-MIN_NUMBER = 12
-MAX_NUMBER = 110
+MIN_AGE = 12
+MAX_AGE = 110
 
 def number_checker(text):
     valid = False
