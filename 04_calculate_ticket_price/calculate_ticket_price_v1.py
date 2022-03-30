@@ -8,6 +8,7 @@ if age in CHILD_AGE:
     ticket_price = CHILD_PRICE
 elif age in STANDARD_AGE:
     ticket_price = STANDARD_PRICE
-else: ticket_price = RETIRED_PRICE return(ticket_price)
+else: ticket_price = RETIRED_PRICE
+return(ticket_price)
 # Main routine # temporary input statements - during development name = input("Name: ") age = int(input("Age: "))
 print(f"The price is $icalculate_ticket_price(age):,.2f1")
