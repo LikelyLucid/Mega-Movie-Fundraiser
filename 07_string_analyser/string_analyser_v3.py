@@ -7,8 +7,8 @@ test_strings = [
     "40J",
     ]
 
+number_regex = "^[1-9]"
 for item in test_strings:
-    number_regex = "^[1-9]"
     if re.match(number_regex, item):
         amount = int(item[0])
         snack = item[1:]
