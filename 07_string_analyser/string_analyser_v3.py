@@ -1,21 +1,21 @@
+import re
+
 test_strings = [
     "Popcorn",
     "2 pc",
-    "1.5OJ",
-    "4OJ",
-    "120Chips",
+    "1.50J",
+    "40J",
     ]
 
 for item in test_strings:
-    if item[0].isdigit():
-        if item[1].isdigit():
-            quantity = int(item[0]+item[1])
-            snack = item[2:]
-        else:
-            quantity = int(item[0])
-            snack = item[1:]
+    number_regex = "^[1-9]"
+    if re.match(number_regex, item):
+        amount = int(item[0])
+        snack = item[1:]
     else:
-        quantity = 1
+        amount = 1
         snack = item
-    print(f"Quantity = {quantity}")
-    print(f"Snack = {snack}")
+    snack = snack.strip()
+    print(f"Amount: {amount}")
+    print(f"Snack: {snack}")
+    print(f"Length of snack: {len(snack)}")
