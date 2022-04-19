@@ -16,7 +16,7 @@ movie_data_dict = {
     "Water": water,
     "Pita Chips": pita_chips,
     "M&Ms": mms,
-    "Orange Juice": orange_juice
+    "Orange Juice": orange_juice,
 }
 
 price_dict = {
@@ -32,7 +32,7 @@ test_data = [
     [[]],
     [[1, "Water"]],
     [[1, "Popcorn"], [1, "Orange Juice"]],
-    [[1, "M&Ms"], [1, "Pita Chips"], [3, "Orange Juice"]]
+    [[1, "M&Ms"], [1, "Pita Chips"], [3, "Orange Juice"]],
 ]
 
 count = 0
@@ -56,15 +56,20 @@ print()
 movie_frame = pandas.DataFrame(movie_data_dict)
 movie_frame = movie_frame.set_index("Name")
 
-movie_frame["Sub Total"] = \
-    movie_frame["Ticket"] + \
-    movie_frame["Popcorn"] + price_dict["Popcorn"] + \
-    movie_frame["Water"] + price_dict["Water"] + \
-    movie_frame["Pita Chips"] + price_dict["Pita Chips"] + \
-    movie_frame["M&Ms"] + price_dict["M&Ms"] + \
-    movie_frame["Orange Juice"] + price_dict["Orange Juice"]
+movie_frame["Sub Total"] = (
+    movie_frame["Ticket"]
+    + movie_frame["Popcorn"]
+    + price_dict["Popcorn"]
+    + movie_frame["Water"]
+    + price_dict["Water"]
+    + movie_frame["Pita Chips"]
+    + price_dict["Pita Chips"]
+    + movie_frame["M&Ms"]
+    + price_dict["M&Ms"]
+    + movie_frame["Orange Juice"]
+    + price_dict["Orange Juice"]
+)
 
-movie_frame = movie_frame.rename(columns={"Orange Juice": "OJ",
-                                          "Pita Chips": "Chips"})
+movie_frame = movie_frame.rename(columns={"Orange Juice": "OJ", "Pita Chips": "Chips"})
 
 print(movie_frame)
